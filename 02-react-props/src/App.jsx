@@ -1,4 +1,10 @@
 import './App.css'
+import cinco from './assets/img/cinco.jpg'
+import cuatro from './assets/img/cuatro.jpg'
+import dos from './assets/img/dos.jpg'
+import seis from './assets/img/seis.jpg'
+import tres from './assets/img/tres.jpg'
+import uno from './assets/img/uno.jpg'
 
 function App () {
   return (
@@ -23,7 +29,12 @@ function App () {
       </header>
 
       <section className='wave-contenedor website'>
-        <img src='img/ilustracion1.svg' alt='' />
+        <img src={uno} alt='' />
+        <img src={dos} alt='' />
+        <img src={tres} alt='' />
+        <img src={cuatro} alt='' />
+        <img src={cinco} alt='' />
+        <img src={seis} alt='' />
         <div className='contenedor-textos-main'>
           <h2 className='titulo left'>Title of section</h2>
           <p className='parrafo'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim reiciendis
